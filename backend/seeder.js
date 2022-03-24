@@ -61,6 +61,7 @@ const destroytData = async () => {
 }
 
 
+
 // to get the -d on terminal to mean destroy
 if (process.argv[2] === '-d') {
   destroytData()
